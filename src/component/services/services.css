@@ -1,0 +1,24 @@
+.main_card {
+	border-radius: 10px;
+	transform: translateY(-60px);
+}
+
+.main_card > div {
+	box-shadow: -5px -3px 5px 0px rgb(0 0 0 / 60%);
+	line-height: 1.5rem;
+	flex-basis: 40%;
+	transition: var(--transition);
+}
+
+.transitions {
+	transition: var(--transition);
+}
+
+.transition:hover,
+.transitions:focus {
+	outline: 1px #0d6efd solid;
+}
+
+.action_btn {
+	padding-block: 1em;
+}
